@@ -1,0 +1,25 @@
+body {
+  font-family: 'Playball', cursive;
+  font-family: 'Playfair Display', serif;
+}
+
+.wrapper {
+  width: 470px;
+  margin: auto;
+  color: #626262;
+}
+
+.title-1 {
+  visibility: hidden;
+  margin: 0 0;
+}
+
+.first {
+  text-transform: uppercase;
+  color: #b4ad9e;
+
+}
+
+.title-2 {
+  margin-bottom: 7px;
+}
