@@ -1,0 +1,39 @@
+body {
+  font-size: 0;
+}
+
+.wrapper {
+  width: 900px;
+  height: 100vh;
+  font-size: 24px;
+  padding-top: 20px;
+  margin: auto;
+
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  border: 2px solid transparent;
+}
+
+.list-item {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 28px 10px;
+
+}
+
+a:hover {
+  border: 2px solid red;
+  color: red;
+}
+
+.item-last {
+  margin-right: 0;
+}
+
+.item-first {
+  margin-left: 14px;
+
+}
