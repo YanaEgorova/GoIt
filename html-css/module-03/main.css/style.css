@@ -1,0 +1,97 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.page-nav {
+  padding: 54px 0;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu {
+  list-style: none;
+}
+
+.first {
+  padding-left: 132px;
+  padding-right: 132px;
+}
+
+.second {
+  padding-right: 104px;
+}
+
+.third {
+  padding-right: 94px;
+}
+
+.link,
+.link-menu {
+  text-decoration: none;
+  color: #626262;
+  outline: none;
+}
+
+.link-menu {
+  text-transform: uppercase;
+}
+
+.link-menu:hover,
+.link-menu:focus {
+  color: #03a9f4;
+}
+
+.wrapper {
+  width: 902px;
+  margin: 0 auto;
+  color: #626262;
+}
+
+.article {
+  display: inline-block;
+  width: 420px;
+  margin: 0 57px 0 0;
+  padding: 0;
+  margin-bottom: 138px;
+}
+
+.article:nth-child(2n) {
+  margin-right: 0;
+}
+
+.description {
+  margin: 30px 0 26px 0;
+}
+
+.about {
+  margin: 36px 0 0 0;
+}
+
+.load-more {
+  display: inline-block;
+  width: 162px;
+  height: 60px;
+  font-size: 20px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
