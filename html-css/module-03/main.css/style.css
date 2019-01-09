@@ -86,12 +86,20 @@ body {
   margin: 36px 0 0 0;
 }
 
-.load-more {
-  display: inline-block;
-  width: 162px;
-  height: 60px;
+.last-child {
+  margin: 0 57px 55px 0;
+}
+
+.button {
+  display: block;
+  color: #6c6c6c;
+  text-decoration: none;
+  outline: none;
+  background: white;
+  width: 167px;
+  padding: 18px 0;
+  border: 1px solid #6c6c6c;
   font-size: 20px;
   margin: 0 auto;
   text-align: center;
-  padding: 20px;
 }
