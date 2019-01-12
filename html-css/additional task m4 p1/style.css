@@ -1,0 +1,49 @@
+li {
+  list-style-type: none;
+  float: left;
+  border: 10px solid transparent;
+  padding: 20px;
+  margin: 50px;
+}
+.r {
+  color: red;
+}
+.r:hover {
+  border: 10px solid red;
+  border-radius: 60%;
+}
+.o {
+  color: orange;
+}
+.o:hover {
+  border: 10px solid orange;
+  border-radius: 60%;
+}
+.y {
+  color: yellow;
+}
+.y:hover {
+  border: 10px solid yellow;
+  border-radius: 60%;
+}
+.g {
+  color: green;
+}
+.g:hover {
+  border: 10px solid green;
+  border-radius: 60%;
+}
+.b {
+  color: blue;
+}
+.b:hover {
+  border: 10px solid blue;
+  border-radius: 60%;
+}
+.p {
+  color: palevioletred;
+}
+.p:hover {
+  border: 10px solid palevioletred;
+  border-radius: 60%;
+}
