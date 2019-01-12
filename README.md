@@ -8,4 +8,5 @@
 4. *[additional task m3 p2](https://yanaegorova.github.io/GoIt/html-css/additional%20task%20m3%20p2/index.html)*
 5. *[module-03](https://yanaegorova.github.io/GoIt/html-css/module-03/index.html)*
 6. *[additional task m4 p1](https://yanaegorova.github.io/GoIt/html-css/additional%20task%20m4%20p1/index.html)*
+7. *[additional task m4 p2](https://yanaegorova.github.io/GoIt/html-css/additional%20task%20m4%20p2/index.html)*
 
