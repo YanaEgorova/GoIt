@@ -1,0 +1,15 @@
+li {
+  color: #0E1116;
+}
+
+li:nth-child(1n) {
+  background: #88292F;
+}
+
+li:nth-child(2n) {
+  background: #5DB7DE;
+}
+
+li:nth-child(3n) {
+  background: #0D5D56;
+}
