@@ -90,16 +90,25 @@ body {
   margin: 0 57px 55px 0;
 }
 
-.button {
+div {
   display: block;
-  color: #6c6c6c;
-  text-decoration: none;
-  outline: none;
-  background: white;
-  width: 167px;
-  padding: 18px 0;
-  border: 1px solid #6c6c6c;
+}
+
+.s {
+  display: flex;
+}
+
+.load-more {
   font-size: 20px;
+  border: 1px solid #626262;
+  color: #626262;
   margin: 0 auto;
-  text-align: center;
+  padding: 0;
+  min-width: 166px;
+  min-height: 60px;
+  line-height: 24px;
+  cursor: pointer;
+  justify-content: center;
+
+
 }
