@@ -5,45 +5,63 @@ li {
   padding: 20px;
   margin: 50px;
 }
+
 .r {
   color: red;
 }
-.r:hover {
+
+.r:hover,
+.r:focus {
   border: 10px solid red;
   border-radius: 60%;
 }
+
 .o {
   color: orange;
 }
-.o:hover {
+
+.o:hover,
+.o:focus {
   border: 10px solid orange;
   border-radius: 60%;
 }
+
 .y {
   color: yellow;
 }
-.y:hover {
+
+.y:hover,
+.y:focus {
   border: 10px solid yellow;
   border-radius: 60%;
 }
+
 .g {
   color: green;
 }
-.g:hover {
+
+.g:hover,
+.g:focus {
   border: 10px solid green;
   border-radius: 60%;
 }
+
 .b {
   color: blue;
 }
-.b:hover {
+
+.b:hover,
+.b:focus {
   border: 10px solid blue;
   border-radius: 60%;
 }
+
 .p {
   color: palevioletred;
 }
-.p:hover {
+
+.p:hover,
+.p:focus {
   border: 10px solid palevioletred;
   border-radius: 60%;
 }
