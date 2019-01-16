@@ -28,6 +28,23 @@ body {
   margin: 0 auto;
 }
 
+.logo {
+  font-family: 'Roboto';
+  font-weight: 300;
+  color: rgb(102, 102, 102);
+  font-size: 30px;
+  line-height: 32px;
+  text-transform: uppercase;
+  text-decoration: none;
+  float: left;
+}
+
+.logo::first-letter {
+  font-family: 'Roboto';
+  font-weight: 900;
+  color: rgb(51, 204, 153);
+}
+
 .page-header {
   padding-top: 40px;
   margin-bottom: 108px;
@@ -143,4 +160,22 @@ body {
   color: #555252;
   font-weight: normal;
   font-family: "Open Sans", sans-serif;
+}
+
+.button {
+  width: 159px;
+  height: 51px;
+  background-color: #4ec6ab;
+  border-radius: 4px;
+}
+
+.button-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  text-align: center;
+  vertical-align: center;
 }
