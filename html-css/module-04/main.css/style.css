@@ -27,20 +27,36 @@ body {
   width: 1110px;
   margin: 0 auto;
 }
+.site-logo {
+  text-decoration: none;
+}
 
 .logo {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 300;
-  color: rgb(102, 102, 102);
+  color: #666666;
   font-size: 30px;
   line-height: 32px;
   text-transform: uppercase;
-  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation {
+  height: auto;
+  overflow: hidden;
+}
+
+.site-logo {
   float: left;
+  height: auto;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
 }
 
 .logo::first-letter {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 900;
   color: rgb(51, 204, 153);
 }
@@ -50,8 +66,10 @@ body {
   margin-bottom: 108px;
 }
 
-.site-logo {
-  display: inline-block;
+.menu-item {
+  float: right;
+  height: auto;
+  overflow: hidden;
 }
 
 .site-navigation {
@@ -62,10 +80,6 @@ body {
   line-height: 11px;
   list-style-type: none;
   width: 490px;
-}
-
-.site-navigation li {
-  float: left;
 }
 
 .site-navigation a:hover {
@@ -109,9 +123,47 @@ body {
 .products-list {
   float: left;
   width: 255px;
-  height: 325px;
   margin: 0 auto;
   background: #e9f0fd;
+}
+
+.name-price {
+  width: 254px;
+  height: 40px;
+  height: auto;
+  overflow: hidden;
+}
+
+.price {
+  float: right;
+  color: white;
+  width: 52px;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+  background: rgba(50, 50, 50, 0.4);
+}
+
+.name-product {
+  font-family: "Roboto";
+  font-weight: 900;
+  background: #323232;
+  box-sizing: border-box;
+  float: left;
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+  width: 202px;
+  height: 40px;
+  padding: 0 0 0 14px;
+  text-align: left;
+  text-transform: uppercase;
 }
 
 .products-list:not(:nth-child(4n-3)) {
@@ -122,8 +174,28 @@ body {
   margin-bottom: 30px;
 }
 
+.products-list:hover .name-product {
+  background: rgb(26, 188, 156);
+}
+
+.products-list:hover .price {
+  background: rgba(26, 188, 156, 0.4);
+}
+
+.item {
+  width: 100%;
+  height: auto;
+}
+
+.news {
+  height: auto;
+  overflow: hidden;
+}
+
 .news-list {
   padding: 0;
+  height: auto;
+  overflow: hidden;
 }
 
 .news-list-item {
@@ -136,13 +208,11 @@ body {
   margin-right: 30px;
 }
 
-.news-img {
-  margin-bottom: 14px;
-}
-
 .first {
   font-size: 18px;
   line-height: 26px;
+  margin: 0;
+  padding: 0;
 }
 
 .first::after {
@@ -162,20 +232,22 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.button {
+.button-link {
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 51px;
+  font-family: "Open Sans";
+  font-weight: 300;
+  text-align: center;
+  vertical-align: center;
   width: 159px;
   height: 51px;
   background-color: #4ec6ab;
   border-radius: 4px;
 }
 
-.button-link {
-  text-decoration: none;
-  color: #ffffff;
-  font-size: 16px;
-  line-height: 26px;
-  font-family: 'Open Sans';
-  font-weight: 300;
-  text-align: center;
-  vertical-align: center;
+.item {
+  vertical-align: middle;
 }

@@ -1,99 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>MART</title>
+    <link rel="stylesheet" href="./normalize" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:300,400,500,700,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./main.css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>MART</title>
-  <link rel="stylesheet" href="./normalize">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:300,400,500,700,900" rel="stylesheet">
-  <link rel="stylesheet" href="./main.css/style.css">
-</head>
-
-<body>
-  <div class="wrapper">
-    <header class="page-header">
-      <nav>
-        <a href="#" class="site-logo">
-          <h1 class="logo">Mart</h1>
-        </a>
-        <ul class="site-navigation clearfix">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Page</a></li>
-          <li><a href="#">Shop</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact Us</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section class="products clearfix">
-        <h2 class="products-title">Featured Products</h2>
-        <div class="products-list">
-          <img src="./img/shoes.png" alt="shoes" class="item" width="343" height="281">
-        </div>
-        <div class="products-list">
-          <img src="./img/belt.png" alt="belt" class="item" width="176" height="246">
-        </div>
-        <div class="products-list">
-          <img src="./img/hat.png" alt="hat" width="229" height="158">
-        </div>
-        <div class="products-list">
-          <img src="./img/purse.png" alt="purse" width="240" height="204">
-        </div>
-        <div class="products-list">
-          <img src="./img/purse2.png" alt="purse" width="198" height="213">
-        </div>
-        <div class="products-list">
-          <img src="./img/belt2.png" alt="belt" width="260" height="180">
-        </div>
-        <div class="products-list">
-          <img src="./img/manshoes.png" alt="manshoes" width="196" height="240">
-        </div>
-        <div class="products-list">
-          <img src="./img/glasess.png" alt="glasess" width="234" height="98">
-        </div>
-        <div class="i"></div>
-      </section>
-      <section class="news">
-        <h2 class="news-title">Latest News</h2>
-        <ul class="news-list clearfix">
-          <li class="news-list-item">
-            <img src="./img/ipad.jpg" alt="ipad" width="347" height="262" class="news-img">
-            <p class="first">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</p>
-            <p class="second">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate cursus a sit
-              amet mauris.
-              Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt</p>
-            <button class="button">
+  <body>
+    <div class="wrapper">
+      <header class="page-header">
+        <nav class="navigation">
+          <a href="#" class="site-logo"> <h1 class="logo">Mart</h1> </a>
+          <ul class="site-navigation">
+            <li class="menu-item"><a href="#">Home</a></li>
+            <li class="menu-item"><a href="#">About Us</a></li>
+            <li class="menu-item"><a href="#">Page</a></li>
+            <li class="menu-item"><a href="#">Shop</a></li>
+            <li class="menu-item"><a href="#">Blog</a></li>
+            <li class="menu-item"><a href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section class="products clearfix">
+          <h2 class="products-title">Featured Products</h2>
+          <div class="products-list">
+            <img src="./img/shoes.png" alt="shoes" class="item" />
+            <div class="name-price">
+              <p class="name-product">Blue Tshirt</p>
+              <p class="price">&#36;26</p>
+            </div>
+          </div>
+          <div class="products-list">
+            <img src="./img/belt.png" alt="belt" class="item" />
+            <div class="name-price">
+              <p class="name-product">Woman Shirt</p>
+              <p class="price">&#36;31</p>
+            </div>
+          </div>
+          <div class="products-list">
+            <img src="./img/hat.png" alt="hat" class="item" />
+            <div class="name-price">
+              <p class="name-product">Yellow Tshirt</p>
+              <p class="price">&#36;21</p>
+            </div>
+          </div>
+          <div class="products-list">
+            <img src="./img/purse.png" alt="purse" class="item" />
+            <div class="name-price">
+              <p class="name-product">Cool lingerie</p>
+              <p class="price">&#36;56</p>
+            </div>
+          </div>
+          <div class="products-list">
+            <img src="./img/purse2.png" alt="purse" class="item" />
+            <div class="name-price">
+              <p class="name-product">Blue Tshirt</p>
+              <p class="price">&#36;26</p>
+            </div>
+          </div>
+          <div class="products-list">
+            <img src="./img/belt2.png" alt="belt" class="item" />
+            <div class="name-price">
+              <p class="name-product">Woman Shirt</p>
+              <p class="price">&#36;31</p>
+            </div>
+          </div>
+          <div class="products-list">
+            <img src="./img/manshoes.png" alt="manshoes" class="item" />
+            <div class="name-price">
+              <p class="name-product">Yellow Tshirt</p>
+              <p class="price">&#36;21</p>
+            </div>
+          </div>
+          <div class="products-list">
+            <img src="./img/glasess.png" alt="glasess" class="item" />
+            <div class="name-price">
+              <p class="name-product">Cool lingerie</p>
+              <p class="price">&#36;56</p>
+            </div>
+          </div>
+          <div class="i"></div>
+        </section>
+        <section class="news">
+          <h2 class="news-title">Latest News</h2>
+          <ul class="news-list">
+            <li class="news-list-item">
+              <img
+                src="./img/ipad.jpg"
+                alt="ipad"
+                width="347"
+                height="262"
+                class="news-img"
+              />
+              <p class="first">
+                Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
+              </p>
+              <p class="second">
+                Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh
+                vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+                Nam nec tellus a odio tincidunt
+              </p>
               <a href="#" class="button-link">Read More</a>
-            </button>
-          </li>
-          <li class="news-list-item">
-            <img src="./img/girls.jpg" alt="girls" width="347" height="262" class="news-img">
-            <p class="first">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</p>
-            <p class="second">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate cursus a sit
-              amet mauris.
-              Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt</p>
-            <button class="button">
+            </li>
+            <li class="news-list-item">
+              <img
+                src="./img/girls.jpg"
+                alt="girls"
+                width="347"
+                height="262"
+                class="news-img"
+              />
+              <p class="first">
+                Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
+              </p>
+              <p class="second">
+                Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh
+                vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+                Nam nec tellus a odio tincidunt
+              </p>
               <a href="#" class="button-link">Read More</a>
-            </button>
-          </li>
-          <li class="news-list-item">
-            <img src="./img/bus.jpg" alt="bus" width="347" height="262" class="news-img">
-            <p class="first">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</p>
-            <p class="second">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate cursus a sit
-              amet mauris.
-              Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt</p>
-            <button class="button">
+            </li>
+            <li class="news-list-item">
+              <img
+                src="./img/bus.jpg"
+                alt="bus"
+                width="347"
+                height="262"
+                class="news-img"
+              />
+              <p class="first">
+                Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
+              </p>
+              <p class="second">
+                Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh
+                vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+                Nam nec tellus a odio tincidunt
+              </p>
               <a href="#" class="button-link">Read More</a>
-            </button>
-          </li>
-        </ul>
-      </section>
-    </main>
-  </div>
-</body>
-
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </body>
 </html>
