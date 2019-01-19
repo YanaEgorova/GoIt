@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.wrapper {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: linear-gradient(rgb(238, 5, 102, .3), rgba(133, 245, 4, 0.3)), url(/img/o.jpg);
+  height: 100vh;
+}
