@@ -1,0 +1,37 @@
+body {
+  background: aquamarine;
+}
+
+.menu {
+  text-align: center;
+}
+
+.menu-item {
+  font-size: 20px;
+  list-style-type: none;
+  color: #ff0055;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.menu-item a {
+  text-decoration: none;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.sub-menu {
+  display: none;
+  list-style-type: none;
+  font-size: 10px;
+  color: #cc2dcc;
+  position: absolute;
+}
+
+.menu-item:hover>.sub-menu {
+  display: block;
+}
