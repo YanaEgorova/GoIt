@@ -27,6 +27,7 @@ body {
   width: 1110px;
   margin: 0 auto;
 }
+
 .site-logo {
   text-decoration: none;
 }
@@ -67,7 +68,7 @@ body {
 }
 
 .menu-item {
-  float: right;
+  float: left;
   height: auto;
   overflow: hidden;
 }
@@ -77,9 +78,8 @@ body {
   padding: 0;
   font-size: 14px;
   float: right;
-  line-height: 11px;
+  line-height: 14px;
   list-style-type: none;
-  width: 490px;
 }
 
 .site-navigation a:hover {
@@ -103,7 +103,8 @@ body {
   margin: 0 0 34px 0;
   text-align: center;
   font-size: 48px;
-  line-height: 32px;
+  line-height: 48px;
+  text-transform: uppercase;
 }
 
 .products-title::after,
@@ -116,19 +117,22 @@ body {
   margin: 34px auto 92px;
 }
 
-.i {
-  clear: both;
-}
 
 .products-list {
   float: left;
   width: 255px;
+  height: 322px;
   margin: 0 auto;
   background: #e9f0fd;
 }
 
+
+.i {
+  clear: both;
+}
+
 .name-price {
-  width: 254px;
+  width: 255px;
   height: 40px;
   height: auto;
   overflow: hidden;
@@ -144,7 +148,9 @@ body {
   text-align: center;
   line-height: 40px;
   font-size: 18px;
-  background: rgba(50, 50, 50, 0.4);
+  background: #ffffff;
+  background: rgba(0, 0, 0, .4);
+
 }
 
 .name-product {
@@ -159,7 +165,7 @@ body {
   text-align: center;
   line-height: 40px;
   font-size: 18px;
-  width: 202px;
+  width: 203px;
   height: 40px;
   padding: 0 0 0 14px;
   text-align: left;
@@ -185,11 +191,13 @@ body {
 .item {
   width: 100%;
   height: auto;
+  padding-bottom: 18px;
 }
 
 .news {
   height: auto;
   overflow: hidden;
+  margin-bottom: 80px;
 }
 
 .news-list {
