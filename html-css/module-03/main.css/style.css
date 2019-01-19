@@ -22,8 +22,10 @@ body {
 .nav-menu {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   font-size: 0;
+  height: auto;
+  overflow: hidden;
 }
 
 .menu {
@@ -36,9 +38,7 @@ body {
   margin-right: 0;
 }
 
-.first {
-  margin-left: 164px;
-}
+
 
 
 .link,
