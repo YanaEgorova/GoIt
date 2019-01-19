@@ -19,7 +19,12 @@ body {
   padding: 54px 0;
 }
 
+.page-header {
+  text-align: center;
+}
+
 .nav-menu {
+  display: inline-block;
   list-style: none;
   padding: 0;
   margin: 0 auto;
