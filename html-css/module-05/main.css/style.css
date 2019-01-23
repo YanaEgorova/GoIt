@@ -132,7 +132,7 @@ body {
 }
 
 .background {
-  background-image: url(../html-css/module-05/img/slide.jpg);
+  background-image: url(./html-css/module-05/img/slide.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   height: 600px;
