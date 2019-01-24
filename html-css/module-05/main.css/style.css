@@ -131,6 +131,9 @@ body {
   margin: 0;
 }
 
+.center {
+}
+
 .background {
   background-image: url(../html-css/module-05/img/slide.jpg);
   background-repeat: no-repeat;
@@ -175,7 +178,6 @@ body {
 
 .main {
   background-color: #e9f0fd;
-
 }
 
 .new-collection {
@@ -216,7 +218,7 @@ body {
 .product-name,
 .product-price {
   text-transform: uppercase;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 900;
   font-size: 18px;
   line-height: 32px;
@@ -236,7 +238,7 @@ body {
 
 .product-price {
   float: right;
-  background-color: rgba(50, 50, 50, .4);
+  background-color: rgba(50, 50, 50, 0.4);
   width: 54px;
   height: 40px;
   margin: 0;
@@ -259,18 +261,15 @@ body {
 }
 
 .collection-item:hover .product-price {
-  background-color: rgba(26, 188, 156, .5);
+  background-color: rgba(26, 188, 156, 0.5);
 }
-
-
 
 .collection-item a {
   display: block;
 }
 
-
 .footer {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: normal;
   font-size: 16px;
   line-height: 88px;
@@ -284,7 +283,6 @@ body {
   color: #ffffff;
   padding: 0;
   margin: 0;
-
 }
 
 .footer-about-second {
@@ -293,12 +291,19 @@ body {
 
 .hover-menu {
   display: none;
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, 0.5);
   width: 235px;
   height: 261px;
-  position: absolute;
+  position: relative;
   top: 12px;
   right: 10px;
+}
+.center-part {
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
 .hover-menu-list {
@@ -313,7 +318,6 @@ body {
 .hover-menu-list-item {
   float: left;
   margin-bottom: 9px;
-
 }
 
 .hover-menu-list-item:not(:last-child) {
@@ -353,7 +357,7 @@ body {
 }
 
 .hover-text {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: normal;
   font-size: 14px;
   line-height: 32px;
