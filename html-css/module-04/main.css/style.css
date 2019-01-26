@@ -98,6 +98,10 @@ body {
   margin-bottom: 103px;
 }
 
+.product-list-link {
+  display: block;
+}
+
 .products-title,
 .news-title {
   margin: 0 0 34px 0;
@@ -136,6 +140,7 @@ body {
   height: 40px;
   height: auto;
   overflow: hidden;
+  background: #323232;
 }
 
 .price {
@@ -148,15 +153,12 @@ body {
   text-align: center;
   line-height: 40px;
   font-size: 18px;
-  background: #ffffff;
-  background: rgba(0, 0, 0, .4);
-
+  background: rgba(255, 255, 255, .4);
 }
 
 .name-product {
   font-family: "Roboto";
   font-weight: 900;
-  background: #323232;
   box-sizing: border-box;
   float: left;
   color: white;
@@ -180,13 +182,11 @@ body {
   margin-bottom: 30px;
 }
 
-.products-list:hover .name-product {
+.products-list:hover .name-price {
   background: rgb(26, 188, 156);
 }
 
-.products-list:hover .price {
-  background: rgba(26, 188, 156, 0.4);
-}
+
 
 .item {
   width: 100%;
