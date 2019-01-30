@@ -3,12 +3,16 @@ body {
 }
 
 .wrapper {
-  width: 500px;
-  height: 500px;
+  width: 360px;
+  height: 360px;
   margin: 0 auto;
   background-color: #0dd3c2;
   display: flex;
-  flex-flow: column wrap;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: space-around;
+
 }
 
 .container {
