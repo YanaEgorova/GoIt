@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+
+.wrapper {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: #0dd3c2;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.container {
+  width: 100px;
+  height: 100px;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
