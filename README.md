@@ -17,5 +17,6 @@
 13. *[additional task m5 p2](https://yanaegorova.github.io/GoIt/html-css/additional%20task%20m5%20p2/index.html)*
 14. *[additional task m5 p3](https://yanaegorova.github.io/GoIt/html-css/additional%20task%20m5%20p3/index.html)*
 15. *[module-05](https://yanaegorova.github.io/GoIt/html-css/module-05/index.html)*
+16. *[additional task m6 p1](https://yanaegorova.github.io/GoIt/html-css/additional%20task%20m6%20p1/index.html)*
 
 
