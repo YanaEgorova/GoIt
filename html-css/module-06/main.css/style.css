@@ -29,13 +29,14 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 122px;
+  height: 90px;
 }
 
 .site-logo {
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 20px;
   color: #39c5a9;
 }
 
@@ -87,6 +88,7 @@ body {
   font-weight: normal;
   color: #39c5a9;
   font-size: 14px;
+  text-transform: uppercase;
 }
 
 .services {
@@ -371,10 +373,14 @@ body {
   width: 150px;
   height: 40px;
   background-color: #95e1d3;
+  font-family: 'Montserrat'sans-serif;
+  font-size: 14px;
+  font-weight: bold;
   color: #ffffff;
   border: none;
   margin: 0;
   padding: 0;
+  text-transform: uppercase;
 }
 
 
