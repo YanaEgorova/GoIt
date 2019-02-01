@@ -28,10 +28,6 @@ body {
   margin: 0 auto;
 }
 
-.site-logo {
-  text-decoration: none;
-}
-
 .logo {
   font-family: "Roboto";
   font-weight: 300;
@@ -44,14 +40,12 @@ body {
 }
 
 .navigation {
-  height: auto;
-  overflow: hidden;
+  float: right;
 }
 
 .site-logo {
+  text-decoration: none;
   float: left;
-  height: auto;
-  overflow: hidden;
   padding: 0;
   margin: 0;
 }
@@ -69,8 +63,6 @@ body {
 
 .menu-item {
   float: left;
-  height: auto;
-  overflow: hidden;
 }
 
 .site-navigation {
@@ -98,9 +90,6 @@ body {
   margin-bottom: 103px;
 }
 
-.product-list-link {
-  display: block;
-}
 
 .products-title,
 .news-title {
@@ -121,7 +110,6 @@ body {
   margin: 34px auto 92px;
 }
 
-
 .products-list {
   float: left;
   width: 255px;
@@ -129,14 +117,16 @@ body {
   background: #e9f0fd;
 }
 
-
-
 .name-price {
   width: 255px;
   height: 40px;
   height: auto;
   overflow: hidden;
   background: #323232;
+}
+
+.name-price-link {
+  display: block;
 }
 
 .price {
@@ -149,7 +139,7 @@ body {
   text-align: center;
   line-height: 40px;
   font-size: 18px;
-  background: rgba(255, 255, 255, .4);
+  background: rgba(255, 255, 255, 0.4);
 }
 
 .name-product {
@@ -182,24 +172,10 @@ body {
   background: rgb(26, 188, 156);
 }
 
-
-
 .item {
   width: 100%;
   height: auto;
-  padding-bottom: 18px;
-}
 
-.visually-hidden {
-  position: absolute !important;
-  clip: rect(1px 1px 1px 1px);
-  /* IE6, IE7 */
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0 !important;
-  border: 0 !important;
-  height: 1px !important;
-  width: 1px !important;
-  overflow: hidden;
 }
 
 .news {
