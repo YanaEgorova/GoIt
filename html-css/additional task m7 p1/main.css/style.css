@@ -1,0 +1,30 @@
+.table-container {
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+
+.table {
+  border: 1px solid black;
+  margin: auto;
+}
+
+.name {
+  text-align: left;
+}
+
+.service {
+  color: #ffffff;
+  background-color: #363434;
+}
+
+table,
+th,
+tr,
+td {
+  border: 1px solid #000000;
+  border-collapse: collapse;
+  font-family: sans-serif;
+  padding: 10px;
+}
