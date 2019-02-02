@@ -437,7 +437,7 @@ body {
 /* спрайт для соцсетей */
 
 .sprite {
-  background-image: url(../html-css/module-06/img/social/spritesheet.png);
+  background-image: url(../img/article-icon/spritesheet.png);
   background-repeat: no-repeat;
   display: block;
   position: absolute;
