@@ -5,6 +5,10 @@
 }
 
 
+.table-header {
+  font-size: 24px;
+}
+
 .table {
   border: 1px solid black;
   margin: auto;
