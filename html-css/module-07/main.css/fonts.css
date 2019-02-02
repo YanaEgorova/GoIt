@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/montserrat-v12-latin-regular.woff') format('woff'),
+    url('../fonts/montserrat-v12-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/montserrat-v12-latin-700.woff') format('woff'),
+    url('../fonts/montserrat-v12-latin-700.woff2') format('woff2');
+
+}
+
+@font-face {
+  font-family: 'OleoScript';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/OleoScript-Regular.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/PlayfairDisplay-Italic.ttf') format('ttf');
+}
+
+
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-slab-v7-latin-regular.woff') format('woff'),
+    url('../fonts/roboto-slab-v7-latin-regular.woff2') format('woff2');
+}
