@@ -37,7 +37,7 @@ html {
 
 /* спрайт */
 .sprite {
-  background-image: url(../img/spritesheet.png);
+  background-image: url(/html-css/module-07/img/spritesheet.png);
   background-repeat: no-repeat;
   display: block;
 }
