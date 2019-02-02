@@ -7,6 +7,8 @@
 
 .table-header {
   font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: 300;
 }
 
 .table {
@@ -24,11 +26,15 @@
 }
 
 table,
-th,
 tr,
 td {
   border: 1px solid #000000;
   border-collapse: collapse;
+  font-family: sans-serif;
+  padding: 10px;
+}
+
+th {
   font-family: sans-serif;
   padding: 10px;
 }
