@@ -136,23 +136,23 @@ body {
 }
 
 .title-first::before {
-  background-image: url(/html-css/module-07/img/Icon-Basket.png);
+  background-image: url(../img/Icon-Basket.png);
   background-size: 40px 39px;
 }
 
 .title-second::before {
-  background-image: url(/html-css/module-07/img/Icon-Laptop.png);
+  background-image: url(../img/Icon-Laptop.png);
   background-size: 41px 35px;
 }
 
 .title-third::before {
-  background-image: url(/html-css/module-07/img/Icon-Locked.png);
+  background-image: url(../img/Icon-Locked.png);
   background-size: 29px 38px;
 }
 
 .background {
   background-color: #222222;
-  background-image: url(/html-css/module-07/img/Map-image.png);
+  background-image: url(../img/Map-image.png);
   background-repeat: no-repeat;
   background-position: bottom right;
 }
