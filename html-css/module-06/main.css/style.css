@@ -391,7 +391,7 @@ body {
 /* спрайт для статей */
 
 .sprite-article {
-  background-image: url(/html-css/module-06/img/article-icon/spritesheet.png);
+  background-image: url(../img/article-icon/spritesheet.png);
   background-repeat: no-repeat;
   display: block;
   float: left;
