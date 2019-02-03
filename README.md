@@ -22,5 +22,6 @@
 18. *[module-06](https://yanaegorova.github.io/GoIt/html-css/module-06/index.html)*
 19. *[additional task m7 p1](https://yanaegorova.github.io/GoIt/html-css/additional%20task%20m7%20p1/index.html)*
 20. *[additional task m7 p2](https://yanaegorova.github.io/GoIt/html-css/additional%20task%20m7%20p2/index.html)*
+21. *[module-07](https://yanaegorova.github.io/GoIt/html-css/module-07/index.html)*
 
 
