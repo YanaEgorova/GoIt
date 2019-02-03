@@ -34,13 +34,14 @@ body {
 
 .site-logo {
   text-decoration: none;
+
+}
+
+.site-logo-header {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 20px;
   color: #39c5a9;
-}
-
-.site-logo-header {
   margin: 0;
   padding: 0;
 }
@@ -437,7 +438,7 @@ body {
 /* спрайт для соцсетей */
 
 .sprite {
-  background-image: url(../img/article-icon/spritesheet.png);
+  background-image: url(../img/social/spritesheet.png);
   background-repeat: no-repeat;
   display: block;
   position: absolute;

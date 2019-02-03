@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Montserrat';
+  font-family: 'MontserratRegular';
   font-style: normal;
   font-weight: 400;
   src: url('../fonts/montserrat-v12-latin-regular.woff') format('woff'),
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: 'Montserrat';
+  font-family: 'MontserratBold';
   font-style: normal;
   font-weight: 700;
   src: url('../fonts/montserrat-v12-latin-700.woff') format('woff'),
