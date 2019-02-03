@@ -65,12 +65,16 @@
       <section class="contact">
         <h2 class="contact-title">Contact Us</h2>
         <p class="contact-about">Proin iaculis purus consequat sem cure.</p>
-        <form action="#">
-          <input type="text">
-          <input type="text">
-          <input type="text">
-          <textarea name="" id="" cols="30" rows="10"></textarea>
-          <input type="submit">
+        <form action="#" method="GET" class="form">
+          <div class="inputs-textarea">
+            <div class="inputs">
+              <input type="text" class="input" placeholder="Your Name&#42;" required>
+              <input type="text" class="input" placeholder="Your E-mail&#42;" required>
+              <input type="text" class="input" placeholder="Subject&#42;" required>
+            </div>
+            <textarea name="" id="" cols="30" rows="10" class="textarea" placeholder="Your Message&#42;" required></textarea>
+          </div>
+          <input type="submit" value="Send Message" class="submit">
         </form>
       </section>
     </div>

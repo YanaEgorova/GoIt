@@ -19,14 +19,14 @@
   font-family: 'OleoScript';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/OleoScript-Regular.ttf') format('ttf');
+  src: url('../fonts/OleoScript-Regular.ttf');
 }
 
 @font-face {
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/PlayfairDisplay-Italic.ttf') format('ttf');
+  src: url('../fonts/PlayfairDisplay-Italic.ttf');
 }
 
 
