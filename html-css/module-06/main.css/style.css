@@ -47,7 +47,6 @@ body {
 }
 
 .menu-list {
-  width: 491px;
   list-style-type: none;
   display: flex;
   flex-direction: row;
@@ -58,6 +57,10 @@ body {
 
 .list-item {
   text-align: center;
+}
+
+.list-item:not(:last-child) {
+  margin-right: 57px;
 }
 
 .list-item-link::after {
@@ -108,7 +111,7 @@ body {
   text-align: center;
 }
 
-.services-title::before {
+.services-title-before {
   content: 'We work with';
   display: block;
   font-family: "Kaushan Script", cursive;
@@ -185,7 +188,7 @@ body {
   text-align: center;
 }
 
-.our-team-title::before {
+.our-team-title-before {
   content: 'Who we are';
   display: block;
   font-family: "Kaushan Script", cursive;
@@ -233,8 +236,8 @@ body {
 .team-list-item-img-container {
   transition: transform 200ms linear;
   position: relative;
-  height: 470px;
   margin-bottom: 30px;
+  width: 380px;
 }
 
 .team-list-item-img-container:hover {
@@ -307,6 +310,7 @@ body {
   background-color: #fce38a;
   position: relative;
   display: none;
+  cursor: pointer;
 }
 
 .social-list-item:hover {
@@ -317,7 +321,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 62px;
   font-size: 0;
 }
 
@@ -328,6 +331,7 @@ body {
   display: block;
   content: '';
   margin-top: 87px;
+  margin-bottom: 11px;
 }
 
 .footer-about {
@@ -340,6 +344,7 @@ body {
 
 .footer-last-word {
   color: #f38181;
+  text-decoration: none;
 }
 
 .input-text {
@@ -383,6 +388,7 @@ body {
   margin: 0;
   padding: 0;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 
