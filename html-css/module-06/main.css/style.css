@@ -255,6 +255,10 @@ body {
 
 }
 
+.team-list-item-img {
+  display: block;
+}
+
 
 .overlay {
   position: absolute;
