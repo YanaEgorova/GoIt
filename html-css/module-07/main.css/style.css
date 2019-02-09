@@ -212,14 +212,20 @@ body {
   outline: none;
 }
 
-.input:valid,
-.message:valid {
+.input:focus .input:valid {
   outline: 3px solid #008000;
 }
 
-.input:invalid,
-.message:invalid {
+.input:focus .input:invalid {
   outline: 3px solid #ff0000;
+}
+
+.message:focus .message:invalid {
+  outline: 3px solid #ff0000;
+}
+
+.message:focus .message:valid {
+  outline: 3px solid #008000;
 }
 
 
