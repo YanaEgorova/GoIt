@@ -155,15 +155,18 @@ body {
 }
 
 .content {
+  text-align: center;
+  padding-top: 106px;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.contact {
   background-color: #222222;
   background-image: url(../img/Map-image.png);
   background-repeat: no-repeat;
   background-position: bottom right;
-}
-
-.contact {
-  text-align: center;
-  padding-top: 106px;
+  width: 100%;
 }
 
 .contact-title {
