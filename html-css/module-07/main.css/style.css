@@ -20,13 +20,19 @@ body {
   margin: 0 auto;
 }
 
-.header {
-  height: 119px;
+.wrapper-header {
+  width: 940px;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+.header {
+  height: 119px;
   margin-bottom: 58px;
+  padding-top: 42px;
 }
 
 .logo-link {
@@ -54,6 +60,7 @@ body {
 .navigation-list-item-link {
   text-decoration: none;
   font-size: 14px;
+  line-height: 41px;
   color: #222222;
   text-transform: uppercase;
   font-family: 'MontserratRegular', sans-serif;
@@ -99,9 +106,6 @@ body {
 }
 
 .services-list-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 290px;
 }
 
@@ -150,7 +154,7 @@ body {
   background-size: 29px 38px;
 }
 
-.background {
+.content {
   background-color: #222222;
   background-image: url(../img/Map-image.png);
   background-repeat: no-repeat;
@@ -212,19 +216,19 @@ body {
   outline: none;
 }
 
-.input:focus .input:valid {
+.input:focus:valid {
   outline: 3px solid #008000;
 }
 
-.input:focus .input:invalid {
+.input:focus:invalid {
   outline: 3px solid #ff0000;
 }
 
-.message:focus .message:invalid {
+.message:focus:invalid {
   outline: 3px solid #ff0000;
 }
 
-.message:focus .message:valid {
+.message:focus:valid {
   outline: 3px solid #008000;
 }
 

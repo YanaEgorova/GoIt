@@ -112,7 +112,6 @@ body {
 }
 
 .services-title-before {
-  content: 'We work with';
   display: block;
   font-family: "Kaushan Script", cursive;
   text-transform: none;
@@ -189,7 +188,6 @@ body {
 }
 
 .our-team-title-before {
-  content: 'Who we are';
   display: block;
   font-family: "Kaushan Script", cursive;
   text-transform: none;
@@ -228,6 +226,12 @@ body {
   justify-content: space-between;
 }
 
+.team-list-item {
+
+  width: 380px;
+}
+
+
 .team {
   margin: 0;
   padding: 0;
@@ -237,7 +241,6 @@ body {
   transition: transform 200ms linear;
   position: relative;
   margin-bottom: 30px;
-  width: 380px;
 }
 
 .team-list-item-img-container:hover {
@@ -329,9 +332,7 @@ body {
 }
 
 .our-team::after {
-  background-color: #e5e5e5;
-  width: 1201px;
-  height: 1px;
+  border-bottom: 1px solid #e5e5e5;
   display: block;
   content: '';
   margin-top: 87px;
@@ -355,7 +356,7 @@ body {
   width: 230px;
   height: 40px;
   border: 1px solid #e5e5e5;
-  padding: 0;
+  padding: 0 0 0 10px;
 }
 
 ::-webkit-input-placeholder {
