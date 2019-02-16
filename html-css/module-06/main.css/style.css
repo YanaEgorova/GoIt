@@ -9,8 +9,6 @@ html {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
-  font-family: "Kaushan Script", cursive;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   color: #999999;
@@ -260,6 +258,8 @@ body {
 
 .team-list-item-img {
   display: block;
+  width: 100%;
+  height: auto;
 }
 
 
