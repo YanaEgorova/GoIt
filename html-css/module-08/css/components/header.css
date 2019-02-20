@@ -1,0 +1,103 @@
+.background {
+  background-image: url(../../img/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 2rem 0 13.8rem 0;
+}
+
+
+.header {
+  padding-top: 3.2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+  margin-bottom: 3.4rem;
+}
+
+
+.logo-title {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  text-decoration: none;
+  font-family: var(--main-font);
+  font-size: 2rem;
+  color: var(--main-color);
+  text-transform: uppercase;
+}
+
+.login-menu {
+  list-style: none;
+  margin: 0 0 11.7rem;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.first {
+  margin-right: 2rem;
+}
+
+.header-link {
+  font-family: var(--main-font);
+  font-size: 1.4rem;
+  color: var(--main-color);
+  text-decoration: none;
+  padding: 1.1rem 1.7rem 1.1rem;
+  border: .2rem solid transparent;
+  border-radius: 2.5rem;
+}
+
+.header-link:hover {
+  border: .2rem solid var(--main-color);
+  border-radius: 2.5rem;
+}
+
+.find-partner {
+  text-align: center;
+}
+
+.find-partner-title {
+  font-family: var(--main-font);
+  margin: 0 0 1.5rem 0;
+  padding: 0;
+  font-size: 3rem;
+  color: var(--main-color);
+  text-transform: uppercase;
+}
+
+.find-partner-about {
+  font-family: var(--main-font-light);
+  font-size: 1.8rem;
+  color: var(--main-color);
+  margin: 0 0 3.1rem 0;
+  padding: 0;
+}
+
+.find-partner-button {
+  font-family: var(--main-font);
+  font-size: 1.4rem;
+  color: var(--main-color);
+  border: .1rem solid var(--button-color);
+  width: 28rem;
+  height: 4rem;
+  border-radius: 2.5rem;
+  text-decoration: none;
+  background-color: var(--button-color);
+}
+
+
+@media screen and (min-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .background {
+    padding: 2rem 4.7rem 13.8rem 4.7rem;
+  }
+
+}

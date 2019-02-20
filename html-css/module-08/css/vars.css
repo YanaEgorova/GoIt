@@ -1,0 +1,10 @@
+:root {
+  --main-font: 'MontserratBold', serif, sans-serif;
+  --main-font-light: 'RobotoLight', serif, sans-serif;
+  --main-color: #ffffff;
+  --semi-font-color: #666666;
+  --per-font-color: #333333;
+  --button-color: #ff4e50;
+
+  font-size: 62.5%;
+}
