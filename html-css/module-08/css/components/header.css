@@ -2,9 +2,9 @@
   background-image: url(../../img/background.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   padding: 2rem 0 13.8rem 0;
 }
-
 
 .header {
   padding-top: 3.2rem;
@@ -13,7 +13,6 @@
   flex-direction: column-reverse;
   margin-bottom: 3.4rem;
 }
-
 
 .logo-title {
   margin: 0;
@@ -43,15 +42,16 @@
 .header-link {
   font-family: var(--main-font);
   font-size: 1.4rem;
+  background-color: transparent;
   color: var(--main-color);
-  text-decoration: none;
   padding: 1.1rem 1.7rem 1.1rem;
-  border: .2rem solid transparent;
+  border: 0.2rem solid var(--main-color);
   border-radius: 2.5rem;
+  cursor: pointer;
 }
 
 .header-link:hover {
-  border: .2rem solid var(--main-color);
+  border: 0.2rem solid var(--main-color);
   border-radius: 2.5rem;
 }
 
@@ -76,18 +76,16 @@
   padding: 0;
 }
 
-.find-partner-button {
+.find-partner-link {
   font-family: var(--main-font);
   font-size: 1.4rem;
   color: var(--main-color);
-  border: .1rem solid var(--button-color);
-  width: 28rem;
-  height: 4rem;
+  border: 0.1rem solid var(--button-color);
+  padding: 1.3rem 4.8rem;
   border-radius: 2.5rem;
   text-decoration: none;
   background-color: var(--button-color);
 }
-
 
 @media screen and (min-width: 768px) {
   .header {
@@ -99,5 +97,4 @@
   .background {
     padding: 2rem 4.7rem 13.8rem 4.7rem;
   }
-
 }
