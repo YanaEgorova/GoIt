@@ -26,6 +26,11 @@
 }
 
 
+.partner-list-item-img {
+  border-radius: 50%;
+}
+
+
 
 .card {
   width: 22rem;
