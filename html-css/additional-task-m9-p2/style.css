@@ -1,0 +1,20 @@
+html {
+  font-size: 62.5%;
+}
+
+.grid-item,
+.grid-item-2 {
+  width: 30rem;
+  height: 20rem;
+  font-size: 3rem;
+  text-align: center;
+  line-height: 20rem;
+}
+
+.grid-item {
+  background-color: #ffc05a;
+}
+
+.grid-item-2 {
+  background-color: #e78d8d;
+}
