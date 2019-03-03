@@ -45,7 +45,7 @@
   background-color: transparent;
   color: var(--main-color);
   padding: 1.1rem 1.7rem 1.1rem;
-  border: 0.2rem solid var(--main-color);
+  border: 0.2rem solid transparent;
   border-radius: 2.5rem;
   cursor: pointer;
 }
