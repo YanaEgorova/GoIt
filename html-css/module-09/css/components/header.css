@@ -76,6 +76,7 @@
   font-size: 3rem;
   color: var(--main-color);
   text-transform: uppercase;
+  margin: 0 auto;
 }
 
 .find-partner-about {
