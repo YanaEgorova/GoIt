@@ -1,0 +1,13 @@
+.container {
+  margin: 0 auto;
+  width: 400px;
+  height: 200px;
+  background: url('../additional-task-m10-p2/img/placeimg_400_200_arch.jpg') no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+  .container {
+    background: url('../additional-task-m10-p2/img/placeimg_800_400_arch.jpg') no-repeat;
+  }
+}
