@@ -1,0 +1,45 @@
+.background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: linear-gradient(to bottom, rgba(243, 129, 129, .9), rgba(252, 227, 138, .9)),
+    url('/html-css/module-10/img/background-min.jpg');
+}
+
+@media (min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .background {
+    background-image: linear-gradient(to bottom, rgba(243, 129, 129, .9), rgba(252, 227, 138, .9)),
+      url('/html-css/module-10/img/background-min@2x.jpg');
+  }
+}
+
+.container {}
+
+.background__logo {}
+
+.background__title {}
+
+.nav {}
+
+.nav__list {}
+
+.nav__list-item {}
+
+.nav-link {}
+
+.shopping-cart {}
+
+.shopping-cart__img {}
+
+.magnifiying-glass {}
+
+.magnifiying-glass__img {}
+
+.masthead-hero {}
+
+.masthead-hero__title {}
+
+.masthead-hero__span {}
+
+.learn-more {}
