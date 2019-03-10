@@ -1,0 +1,9 @@
+:root {
+  --main-font: 'RobotoRegular', serif, sans-serif;
+  --main-font-bold: 'MontserratBold', serif, sans-serif;
+  --main-color: #999999;
+  --semi-font-color: #ffffff;
+  --per-font-color: #333333;
+
+  font-size: 62.5%;
+}
