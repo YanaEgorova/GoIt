@@ -13,38 +13,42 @@
 
   <div class="background">
     <div class="container">
-      <a href="" class="background__logo">
-        <h1 class="background__title"></h1>
-      </a>
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__list-item">
-            <a href="" class="nav-link">About</a>
-          </li>
-          <li class="nav__list-item">
-            <a href="" class="nav-link">Service</a>
-          </li>
-          <li class="nav__list-item">
-            <a href="" class="nav-link">Work</a>
-          </li>
-          <li class="nav__list-item">
-            <a href="" class="nav-link">Blog</a>
-          </li>
-          <li class="nav__list-item">
-            <a href="" class="nav-link">Contact</a>
-          </li>
-        </ul>
-      </nav>
-      <button class="shopping-cart">
-        <svg class="shopping-cart__img">
-          <use href="../module-10/svg/sprite.svg#shopping-cart"></use>
-        </svg>
-      </button>
-      <button class="magnifiying-glass">
-        <svg class="magnifiying-glass__img">
-          <use href="../module-10/svg/sprite.svg#magnifiying-glass"></use>
-        </svg>
-      </button>
+      <header class="header">
+        <a href="" class="header__logo link">
+          <h1 class="header__title">MoGo</h1>
+        </a>
+        <div class="header--right">
+          <nav class="nav">
+            <ul class="nav__list list">
+              <li class="nav__list-item">
+                <a href="" class="nav__link link">About</a>
+              </li>
+              <li class="nav__list-item">
+                <a href="" class="nav__link link">Service</a>
+              </li>
+              <li class="nav__list-item">
+                <a href="" class="nav__link link">Work</a>
+              </li>
+              <li class="nav__list-item">
+                <a href="" class="nav__link link">Blog</a>
+              </li>
+              <li class="nav__list-item">
+                <a href="" class="nav__link link">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="button">
+            <svg class="button__img" width="2.1rem" height="1.6rem">
+              <use href="../module-10/svg/sprite.svg#shopping-cart"></use>
+            </svg>
+          </button>
+          <button class="button">
+            <svg class="button__img" width="2.1rem" height="1.9rem">
+              <use href="../module-10/svg/sprite.svg#magnifying-glass"></use>
+            </svg>
+          </button>
+        </div>
+      </header>
       <section class="masthead-hero">
         <h2 class="masthead-hero__title">
           <span class="masthead-hero__span">Creative Template</span>
@@ -55,55 +59,67 @@
     </div>
   </div>
 
-  <section class="services">
+  <section class="services services__margin-bottom">
     <div class="services__container">
-      <h2 class="services__title">
-        <span class="services__span">We work with</span>
+      <h2 class="services__title title">
+        <span class="services__span title-span">We work with</span>
         Amazing Services
       </h2>
-      <ul class="services__list">
-        <li class="services-item">
-          <svg class="services-item__img">
+      <ul class="services__list list">
+        <li class="services__item">
+          <svg class="services-item__img alarm" width="3.3rem" height="3.1rem">
             <use href="../module-10/svg/sprite.svg#alarm"></use>
           </svg>
-          <h3 class="services-item__title">Photography</h3>
-          <p class="services-item__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor.</p>
+          <div class="services__card">
+            <h3 class="services-item__title">Photography</h3>
+            <p class="services-item__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor.</p>
+          </div>
         </li>
-        <li class="services-item">
-          <svg class="services-item__img">
+        <li class="services__item">
+          <svg class="services-item__img line-graph" width="3.3rem" height="3.2rem">
             <use href="../module-10/svg/sprite.svg#line-graph"></use>
           </svg>
-          <h3 class="services-item__title">Web Design</h3>
-          <p class="services-item__text">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+          <div class="services__card">
+            <h3 class="services-item__title">Web Design</h3>
+            <p class="services-item__text">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+          </div>
         </li>
-        <li class="services-item">
-          <svg class="services-item__img">
+        <li class="services__item">
+          <svg class="services-item__img computer" width="3.2rem" height="2.8rem">
             <use href="../module-10/svg/sprite.svg#computer"></use>
           </svg>
-          <h3 class="services-item__title">Creativity</h3>
-          <p class="services-item__text">Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+          <div class="services__card">
+            <h3 class="services-item__title">Creativity</h3>
+            <p class="services-item__text">Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+          </div>
         </li>
-        <li class="services-item">
-          <svg class="services-item__img">
+        <li class="services__item">
+          <svg class="services-item__img book" width="3.3rem" height="3.3rem">
             <use href="../module-10/svg/sprite.svg#book"></use>
           </svg>
-          <h3 class="services-item__title">Seo</h3>
-          <p class="services-item__text">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+          <div class="services__card">
+            <h3 class="services-item__title">Seo</h3>
+            <p class="services-item__text">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+          </div>
         </li>
-        <li class="services-item">
-          <svg class="services-item__img">
+        <li class="services__item">
+          <svg class="services-item__img home" width="3.2rem" height="3.3rem">
             <use href="../module-10/svg/sprite.svg#home"></use>
           </svg>
-          <h3 class="services-item__title">Css&#8260;Html</h3>
-          <p class="services-item__text">Lorem dolor sit amet, consectetur adipiscing elit, sed do tempor.</p>
+          <div class="services__card">
+            <h3 class="services-item__title">Css&#8260;Html</h3>
+            <p class="services-item__text">Lorem dolor sit amet, consectetur adipiscing elit, sed do tempor.</p>
+          </div>
         </li>
-        <li class="services-item">
-          <svg class="services-item__img">
-            <use href="../module-10/svg/sprite.svg#img"></use>
+        <li class="services__item">
+          <svg class="services-item__img img" width="3.2rem" height="3.2rem">
+            <use href="../module-10/svg/sprite.svg#image"></use>
           </svg>
-          <h3 class="services-item__title">Digital</h3>
-          <p class="services-item__text">Sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+          <div class="services__card">
+            <h3 class="services-item__title">Digital</h3>
+            <p class="services-item__text">Sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+          </div>
         </li>
       </ul>
     </div>
@@ -112,51 +128,50 @@
 
   <section class="our-team">
     <div class="our-team__container">
-      <h2 class="our-team__title">
-        <span class="our-team__span">Who we are</span>
+      <h2 class="our-team__title title">
+        <span class="our-team__span title-span">Who we are</span>
         Meet our team
       </h2>
       <p class="our-team__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
         nisi ut aliquip ex ea commodo consequat. </p>
-      <ul class="our-team__list">
+      <ul class="our-team__list list">
         <li class="our-team__item">
           <figure class="card">
             <div class="card__container">
               <div class="overlay">
-                <ul class="overlay__list">
+                <ul class="overlay__list list">
                   <li class="overlay__item">
-                    <a href="" class="overlay__link">
-                      <svg class="overlay__img">
+                    <a href="" class="overlay__link link">
+                      <svg class="overlay__img" width="1.6rem" height="2.6rem">
                         <use href="../module-10/svg/sprite.svg#facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="overlay__item">
-                    <a href="" class="overlay__link">
-                      <svg class="overlay__img">
+                    <a href="" class="overlay__link link">
+                      <svg class="overlay__img" width="2.6rem" height="2.7rem">
                         <use href="../module-10/svg/sprite.svg#twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="overlay__item">
-                    <a href="" class="overlay__link">
-                      <svg class="overlay__img">
+                    <a href="" class="overlay__link link">
+                      <svg class="overlay__img" width="2rem" height="2.6rem">
                         <use href="../module-10/svg/sprite.svg#pinterest"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="overlay__item">
-                    <a href="" class="overlay__link">
-                      <svg class="overlay__img">
+                    <a href="" class="overlay__link link">
+                      <svg class="overlay__img" width="2.6rem" height="2.6rem">
                         <use href="../module-10/svg/sprite.svg#instagram"></use>
                       </svg>
                     </a>
                   </li>
                 </ul>
               </div>
-              <img srcset="img/man1-min.jpg 380w, img/man1-min@2x.jpg 742w" sizes="380px" src="../module-10/img/man1-min.jpg"
-                height="470" alt="man" class="card__img">
+              <img srcset="img/man1.jpg 380w, img/man1@2x.jpg 742w" sizes="380px" src="img/man1-min.jpg" alt="" class="card__img">
             </div>
             <figcaption class="card__figcaption">
               <h3 class="card__title">Matthew Dix</h3>
@@ -168,38 +183,38 @@
           <figure class="card">
             <div class="card__container">
               <div class="overlay">
-                <ul class="overlay__list">
+                <ul class="overlay__list list">
                   <li class="overlay__item">
-                    <a href="" class="overlay__link">
-                      <svg class="overlay__img">
+                    <a href="" class="overlay__link link">
+                      <svg class="overlay__img" width="1.6rem" height="2.6rem">
                         <use href="../module-10/svg/sprite.svg#facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="overlay__item">
-                    <a href="" class="overlay__link">
-                      <svg class="overlay__img">
+                    <a href="" class="overlay__link link">
+                      <svg class="overlay__img" width="2.6rem" height="2.7rem">
                         <use href="../module-10/svg/sprite.svg#twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="overlay__item">
-                    <a href="" class="overlay__link">
-                      <svg class="overlay__img">
+                    <a href="" class="overlay__link link">
+                      <svg class="overlay__img" width="2rem" height="2.6rem">
                         <use href="../module-10/svg/sprite.svg#pinterest"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="overlay__item">
-                    <a href="" class="overlay__link">
-                      <svg class="overlay__img">
+                    <a href="" class="overlay__link link">
+                      <svg class="overlay__img" width="2.6rem" height="2.6rem">
                         <use href="../module-10/svg/sprite.svg#instagram"></use>
                       </svg>
                     </a>
                   </li>
                 </ul>
               </div>
-              <img src="../module-10/img/man2-min.jpg" alt="man" class="card__img">
+              <img src="../module-10/img/man2.jpg" alt="man" class="card__img">
             </div>
             <figcaption class="card__figcaption">
               <h3 class="card__title">Christopher Campbell</h3>
@@ -211,38 +226,38 @@
           <figure class="card">
             <div class="card__container">
               <div class="overlay">
-                <ul class="overlay__list">
+                <ul class="overlay__list list">
                   <li class="overlay__item">
-                    <a href="" class="overlay__link">
-                      <svg class="overlay__img">
+                    <a href="" class="overlay__link link">
+                      <svg class="overlay__img" width="1.6rem" height="2.6rem">
                         <use href="../module-10/svg/sprite.svg#facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="overlay__item">
-                    <a href="" class="overlay__link">
-                      <svg class="overlay__img">
+                    <a href="" class="overlay__link link">
+                      <svg class="overlay__img" width="2.6rem" height="2.7rem">
                         <use href="../module-10/svg/sprite.svg#twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="overlay__item">
-                    <a href="" class="overlay__link">
-                      <svg class="overlay__img">
+                    <a href="" class="overlay__link link">
+                      <svg class="overlay__img" width="2rem" height="2.6rem">
                         <use href="../module-10/svg/sprite.svg#pinterest"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="overlay__item">
-                    <a href="" class="overlay__link">
-                      <svg class="overlay__img">
+                    <a href="" class="overlay__link link">
+                      <svg class="overlay__img" width="2.6rem" height="2.6rem">
                         <use href="../module-10/svg/sprite.svg#instagram"></use>
                       </svg>
                     </a>
                   </li>
                 </ul>
               </div>
-              <img src="../module-10/img/man3-min.jpg" alt="man" class="card__img">
+              <img src="../module-10/img/man3.jpg" alt="man" class="card__img">
             </div>
             <figcaption class="card__figcaption">
               <h3 class="card__title">Michael Fertig</h3>
@@ -256,7 +271,7 @@
   <footer class="footer">
     <div class="footer__container">
       <p class="footer__text">&#169;2016 MoGo free PSD template by
-        <a href="#" class="footer__link">Laaqiq</a>
+        <a href="#" class="footer__link link">Laaqiq</a>
       </p>
       <form action="#" id="form" class="form">
 

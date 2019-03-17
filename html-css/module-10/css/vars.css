@@ -1,9 +1,14 @@
 :root {
   --main-font: 'RobotoRegular', serif, sans-serif;
+  --semi-font: 'KaushanScriptItalic', serif, sans-serif;
   --main-font-bold: 'MontserratBold', serif, sans-serif;
+  --semi-font-regular: 'MontserratRegular', serif, sans-serif;
   --main-color: #999999;
+  --semi-color: #fce38a;
+  --per-color: #f38181;
   --semi-font-color: #ffffff;
   --per-font-color: #333333;
+  --main-font-color: #95e1d3;
 
   font-size: 62.5%;
 }
