@@ -36,5 +36,6 @@
 32. *[additional task m10 p1](https://yanaegorova.github.io/GoIt/html-css/additional-task-m10-p1/index.html)*
 33. *[additional task m10 p2](https://yanaegorova.github.io/GoIt/html-css/additional-task-m10-p2/index.html)*
 34. *[additional task m10 p3](https://yanaegorova.github.io/GoIt/html-css/additional-task-m10-p3/index.html)*
+35. *[module-10](https://yanaegorova.github.io/GoIt/html-css/module-10/index.html)*
 
 
