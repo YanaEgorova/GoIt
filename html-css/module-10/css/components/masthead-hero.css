@@ -109,6 +109,7 @@
 .masthead-hero__span {
   font-family: var(--semi-font);
   font-size: 7.2rem;
+  text-transform: none;
 }
 
 .learn-more {
