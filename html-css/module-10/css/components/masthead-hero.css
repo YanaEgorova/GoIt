@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-image: linear-gradient(to bottom, rgba(243, 129, 129, .9), rgba(252, 227, 138, .9)),
-    url('/html-css/module-10/img/background-min.jpg');
+    url('../img/background-min.jpg');
   margin-bottom: 5.2rem;
 }
 
