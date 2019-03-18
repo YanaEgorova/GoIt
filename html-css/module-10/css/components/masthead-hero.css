@@ -57,7 +57,7 @@
 }
 
 .nav__link {
-  font-family: var(--main-font);
+  font-family: var(--semi-font-regular);
   color: var(--semi-font-color);
   font-weight: 1.4rem;
   text-transform: uppercase;
