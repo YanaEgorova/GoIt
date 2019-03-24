@@ -1,0 +1,8 @@
+.title::after {
+  content: '';
+  display: block;
+  background-color: $per-color;
+  width: 6rem;
+  height: .3rem;
+  margin: 4.3rem auto 0;
+}

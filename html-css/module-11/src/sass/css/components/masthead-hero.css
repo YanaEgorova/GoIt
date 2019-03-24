@@ -1,0 +1,125 @@
+.background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: linear-gradient(to bottom, rgba(243, 129, 129, .9), rgba(252, 227, 138, .9)),
+    url(../../img/background-min.jpg);
+  margin-bottom: 5.2rem;
+}
+
+@media (min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .background {
+    background-image: linear-gradient(to bottom, rgba(243, 129, 129, .9), rgba(252, 227, 138, .9)),
+      url('/html-css/module-10/img/background-min@2x.jpg');
+  }
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-top: 2.8rem;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.header__title {
+  font-family: var(--main-font-bold);
+  color: var(--semi-font-color);
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+}
+
+.header--right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-right: 5rem;
+}
+
+.nav__list-item:not(:last-child) {
+  margin-right: 5rem;
+}
+
+.nav__link {
+  font-family: var(--semi-font-regular);
+  color: var(--semi-font-color);
+  font-weight: 1.4rem;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+  border-bottom: 0.3rem solid transparent;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+  color: var(--semi-color);
+  border-bottom: 0.3rem solid var(--semi-color);
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.button__img {
+  fill: var(--semi-font-color);
+  display: inline-block;
+}
+
+.button:not(:last-child) {
+  margin-right: 4rem;
+}
+
+.button:hover .button__img {
+  fill: var(--semi-color);
+}
+
+
+.masthead-hero__title {
+  font-family: var(--main-font-bold);
+  color: var(--semi-font-color);
+  font-size: 15rem;
+  margin: 0 auto 11.1rem auto;
+  padding: 0;
+  width: 82.5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.masthead-hero {
+  text-align: center;
+}
+
+.masthead-hero__span {
+  font-family: var(--semi-font);
+  font-size: 7.2rem;
+  text-transform: none;
+}
+
+.learn-more {
+  margin-bottom: 23rem;
+  border: .3rem solid var(--semi-font-color);
+  color: var(--semi-font-color);
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-family: var(--main-font-bold);
+  padding: 1.1rem 2.9rem;
+  cursor: pointer;
+}

@@ -1,0 +1,24 @@
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 5rem;
+}
+
+.nav__list-item:not(:last-child) {
+  margin-right: 5rem;
+}
+
+.nav__link {
+  font-family: $semi-font-regular;
+  color: $semi-font-color;
+  font-weight: 1.4rem;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+  border-bottom: 0.3rem solid transparent;
+
+  &:hover,
+  &:focus {
+    color: $semi-color;
+    border-bottom: 0.3rem solid $semi-color;
+  }
+}

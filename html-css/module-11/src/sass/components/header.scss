@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 2.8rem;
+}
+
+.header__title {
+  font-family: $main-font-bold;
+  color: $semi-font-color;
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+}
+
+.header--right {
+  display: flex;
+}

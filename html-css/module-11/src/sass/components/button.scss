@@ -1,0 +1,22 @@
+$semi-font-color: #ffffff;
+$semi-color: #fce38a;
+
+.button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+  &:not(:last-child) {
+    margin-right: 4rem;
+  }
+}
+
+.button__img {
+  fill: $semi-font-color;
+  display: inline-block;
+}
+
+
+.button:hover .button__img {
+  fill: $semi-color;
+}
